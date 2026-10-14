@@ -58,7 +58,7 @@
             label = "LEFT_POSITIONAL_HOME_ROW_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <240>;
             quick-tap-ms = <0>;   
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <6 7 8 9 10 13 14 15 16 17 18 19 20 21 22 30 31 32 33 34 41 42 43>;
@@ -68,7 +68,7 @@
             label = "LEFT_POSITIONAL_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <240>;
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <6 7 8 9 10 18 19 20 21 22 30 31 32 33 34 41 42 43>;
@@ -78,7 +78,7 @@
             label = "LEFT_MOMENTARY_LEYER_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <240>;
             quick-tap-ms = <0>;
             hold-trigger-key-positions = <6 7 8 9 10 18 19 20 21 22 30 31 32 33 34 41 42 43>;
             bindings = <&mo>, <&kp>;
@@ -88,7 +88,7 @@
             label = "RIGHT_POSITIONAL_HOME_ROW_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <240>;
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <1 2 3 4 5 13 14 15 16 17 18 19 20 21 22 25 26 27 28 29 36 37 38>;
@@ -98,7 +98,7 @@
             label = "RIGHT_POSITIONAL_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <240>;
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <1 2 3 4 5 13 14 15 16 17 25 26 27 28 29 36 37 38>;
@@ -108,7 +108,7 @@
             label = "RIGHT_MOMENTARY_LEYER_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <240>;
             quick-tap-ms = <0>;
             hold-trigger-key-positions = <1 2 3 4 5 13 14 15 16 17 25 26 27 28 29 36 37 38>;
             bindings = <&mo>, <&kp>;
@@ -118,7 +118,7 @@
             label = "THUMB_MOMENTARY_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <240>;
             quick-tap-ms = <0>;
             bindings = <&mo>, <&kp>;
         };
